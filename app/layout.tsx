@@ -27,8 +27,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <div className="h-96">amar sonar bangla</div>
-          <div className="h-screen"></div>
         </ThemeProvider>
       </body>
     </html>
