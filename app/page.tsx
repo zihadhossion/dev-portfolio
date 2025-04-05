@@ -1,4 +1,6 @@
+import Clients from "@/components/Clients";
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 import SectionLayout from "@/components/SectionLayout";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
@@ -10,6 +12,8 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <SectionLayout />
+        <Projects />
+        <Clients />
       </div>
     </main>
   );

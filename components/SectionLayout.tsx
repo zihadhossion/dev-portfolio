@@ -4,7 +4,7 @@ import { gridItems } from "@/data";
 
 const SectionLayout = () => {
   return (
-    <section id="#about">
+    <section id="about">
       {
         <Grid>
           {gridItems.map(
